@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1704800165814,
@@ -12,6 +12,38 @@
                 {
                     "date": 1704800198818,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,12 @@\n <html>\n     <head>Button</head>\n     <title>Button</title>\n-    \n+\n+\n+    <style>\n+        \n+    </style>\n+    <body>\n+\n+    </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1704800353155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,18 @@\n         \n     </style>\n     <body>\n \n+        <button class=\"subscribe-button\">\n+            SUBSCRIBE\n+        </button>\n+\n+\n+        <button class=\"join-button\">\n+            JOIN\n+        </button>\n+\n+        <button class=\"tweet-button\" >\n+            Tweet\n+        </button>\"\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1704800382998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n     <title>Button</title>\n \n \n     <style>\n-        \n+        .subscribe-button{\n+            \n+        }\n     </style>\n     <body>\n \n         <button class=\"subscribe-button\">\n"
+                },
+                {
+                    "date": 1704800393099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n \n     <style>\n         .subscribe-button{\n-            \n+            background-color: rgb(200, 0, 0);\n         }\n     </style>\n     <body>\n \n"
+                },
+                {
+                    "date": 1704800489902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,16 @@\n \n     <style>\n         .subscribe-button{\n             background-color: rgb(200, 0, 0);\n+            color: white;\n+            border: none;\n+            height: 36px;\n+            width: 105px;\n+            border-radius: 2px;\n+            cursor: pointer; \n+            margin-right: 8px;\n+            transition: opacity 0.15s;\n         }\n     </style>\n     <body>\n \n"
+                },
+                {
+                    "date": 1704800501894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,12 @@\n             border-radius: 2px;\n             cursor: pointer; \n             margin-right: 8px;\n             transition: opacity 0.15s;\n+\n         }\n+\n+        \n     </style>\n     <body>\n \n         <button class=\"subscribe-button\">\n"
+                },
+                {
+                    "date": 1704800530917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,39 @@\n+<html>\n+    <head>Button</head>\n+    <title>Button</title>\n+\n+\n+    <style>\n+        .subscribe-button{\n+            background-color: rgb(200, 0, 0);\n+            color: white;\n+            border: none;\n+            height: 36px;\n+            width: 105px;\n+            border-radius: 2px;\n+            cursor: pointer; \n+            margin-right: 8px;\n+            transition: opacity 0.15s;\n+\n+        }\n+\n+        .subscribe-button:hover{\n+            opacity: 0.8;\n+        }\n+    </style>\n+    <body>\n+\n+        <button class=\"subscribe-button\">\n+            SUBSCRIBE\n+        </button>\n+\n+\n+        <button class=\"join-button\">\n+            JOIN\n+        </button>\n+\n+        <button class=\"tweet-button\" >\n+            Tweet\n+        </button>\"\n+    </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1704800545739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,45 +19,13 @@\n \n         .subscribe-button:hover{\n             opacity: 0.8;\n         }\n-    </style>\n-    <body>\n \n-        <button class=\"subscribe-button\">\n-            SUBSCRIBE\n-        </button>\n \n-\n-        <button class=\"join-button\">\n-            JOIN\n-        </button>\n-\n-        <button class=\"tweet-button\" >\n-            Tweet\n-        </button>\"\n-    </body>\n-</html>\n-<html>\n-    <head>Button</head>\n-    <title>Button</title>\n-\n-\n-    <style>\n-        .subscribe-button{\n-            background-color: rgb(200, 0, 0);\n-            color: white;\n-            border: none;\n-            height: 36px;\n-            width: 105px;\n-            border-radius: 2px;\n-            cursor: pointer; \n-            margin-right: 8px;\n-            transition: opacity 0.15s;\n-\n+        .subscribe-button:active {\n+            opacity: 0.5;\n         }\n-\n-        \n     </style>\n     <body>\n \n         <button class=\"subscribe-button\">\n"
+                },
+                {
+                    "date": 1704800590495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,14 @@\n \n         .subscribe-button:active {\n             opacity: 0.5;\n         }\n+\n+        .join-button {\n+            background-color: white;\n+            border-color:rgb(41, 118, 211) ;\n+            \n+        }\n     </style>\n     <body>\n \n         <button class=\"subscribe-button\">\n"
                 }
             ],
             "date": 1704800165814,
