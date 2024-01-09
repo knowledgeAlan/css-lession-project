@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1704800165814,
@@ -44,6 +44,10 @@
                 {
                     "date": 1704800590495,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,14 @@\n \n         .subscribe-button:active {\n             opacity: 0.5;\n         }\n+\n+        .join-button {\n+            background-color: white;\n+            border-color:rgb(41, 118, 211) ;\n+            \n+        }\n     </style>\n     <body>\n \n         <button class=\"subscribe-button\">\n"
+                },
+                {
+                    "date": 1704800926307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,17 @@\n \n         .join-button {\n             background-color: white;\n             border-color:rgb(41, 118, 211) ;\n-            \n+            border-style: solid ;\n+            border-width: 1px;\n+            color: rgb(41, 118, 211);\n+            height: 36px;\n+            width: 62px;\n+            border-radius: 2px ;\n+            cursor: pointer;\n+            transition: background-color 0.15s, color 0.15s;\n+\n         }\n     </style>\n     <body>\n \n"
                 }
             ],
             "date": 1704800165814,
