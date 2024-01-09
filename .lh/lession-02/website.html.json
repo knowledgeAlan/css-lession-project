@@ -1,0 +1,26 @@
+{
+    "sourceFile": "lession-02/website.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1704800018029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1704800033030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,10 @@\n <p>\n     paragraph of text\n-</p>\n\\ No newline at end of file\n+</p>\n+\n+\n+<button>\n+    Hello \n+</button>\n+\n+\n"
+                },
+                {
+                    "date": 1704800071095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,4 +7,7 @@\n     Hello \n </button>\n \n \n+<a href=\"https://www.youtube.com/\" target=\"blank\">\n+    Link to YouTube\n+</a>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1704800018029,
+            "name": "Commit-0",
+            "content": "<p>\n    paragraph of text\n</p>"
+        }
+    ]
+}

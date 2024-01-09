@@ -1,0 +1,22 @@
+{
+    "sourceFile": "lesson-03/buttons.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1704800165814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1704800198818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,12 @@\n <html>\n     <head>Button</head>\n     <title>Button</title>\n-    \n+\n+\n+    <style>\n+        \n+    </style>\n+    <body>\n+\n+    </body>\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1704800165814,
+            "name": "Commit-0",
+            "content": "<html>\n    <head>Button</head>\n    <title>Button</title>\n    \n</html>"
+        }
+    ]
+}
